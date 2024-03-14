@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de inicio de sesión</title>
+</head>
+<body>
+    <h2>Iniciar sesión</h2>
+
+    <form action="/login" method="post">
+        <div class="container">
+            <label for="uname"><b>Nombre de usuario</b></label>
+            <input type="text" placeholder="Introduce tu nombre de usuario" name="username" required>
+
+            <label for="psw"><b>Contraseña</b></label>
+            <input type="password" placeholder="Introduce tu contraseña" name="password" required>
+
+            <button type="submit">Iniciar sesión</button>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancelar</button>
+            <span class="psw">¿Olvidaste tu <a href="#">contraseña?</a></span>
+        </div>
+    </form>
+    <a href="/msg.html">Login using SAML</a><br/>
+</body>
+</html>
